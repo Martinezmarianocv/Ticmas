@@ -1,0 +1,42 @@
+p {
+    color:brown;
+    width: 300;
+}
+
+/** Así se comenta en un archivo CSS*/
+
+/** CSS Box Model */
+h1 {
+    border: 5px solid gold;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+/** Selectores, el * aplica a todos los elementos del documento */
+* {
+    color: brown;
+    font-family: 'Raleway', sans-serif;
+}
+#Parrafo1 {
+    color: blueviolet;
+    font-size: medium;
+    margin: 20px;  
+}
+
+.estaesmiclase {
+    font-weight: lighter;
+    color: brown;
+}
+article h2 {
+    font-weight: bolder;
+    color: chocolate;
+    font-size: x-large;
+}
+body {background-color:beige;}
+*{
+    box-sizing: border-box;
+}
